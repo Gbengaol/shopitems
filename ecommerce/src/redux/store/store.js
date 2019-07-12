@@ -7,4 +7,4 @@ const middlewares = [ logger ]; // All middlewares (no matter their number) go i
 
 const store = createStore (rootReducer, applyMiddleware(...middlewares));
 
-export default store; //To b put into App.js so the entire app can have access to it
+export default store; //To be put into App.js so the entire app can have access to it
